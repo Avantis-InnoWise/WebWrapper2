@@ -12,7 +12,7 @@ import SnapKit
 class MainScreenController: NSViewController {
     private let backButton : NSButton = {
         let backButton = NSButton()
-        backButton.makeAdultButton(with: Constants.pinkColor, radius: Constants.cornerRadius)
+        backButton.makeAdultButton(with: ButtonConstants.pinkColor, radius: ButtonConstants.cornerRadius)
         backButton.setAccessibilityIdentifier(WebButton.back.rawValue)
         backButton.title = .localized.backButton
         backButton.translatesAutoresizingMaskIntoConstraints = false
@@ -22,7 +22,7 @@ class MainScreenController: NSViewController {
     
     private let forwardButton: NSButton = {
         let forwardButton = NSButton()
-        forwardButton.makeAdultButton(with: Constants.pinkColor, radius: Constants.cornerRadius)
+        forwardButton.makeAdultButton(with: ButtonConstants.pinkColor, radius: ButtonConstants.cornerRadius)
         forwardButton.setAccessibilityIdentifier(WebButton.forward.rawValue)
         forwardButton.title = .localized.forwardButton
         forwardButton.translatesAutoresizingMaskIntoConstraints = false
@@ -32,7 +32,7 @@ class MainScreenController: NSViewController {
     
     private let homeButton: NSButton = {
         let homeButton = NSButton()
-        homeButton.makeAdultButton(with: Constants.pinkColor, radius: Constants.cornerRadius)
+        homeButton.makeAdultButton(with: ButtonConstants.pinkColor, radius: ButtonConstants.cornerRadius)
         homeButton.setAccessibilityIdentifier(WebButton.home.rawValue)
         homeButton.title = .localized.homeButton
         homeButton.translatesAutoresizingMaskIntoConstraints = false
@@ -55,7 +55,7 @@ class MainScreenController: NSViewController {
     //MARK: - View configuration
     private func configureWebView() {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-            if let url = Constants.baseURL {
+            if let url = URLConstants.baseURL {
                 self.webView.load(URLRequest(url: url))
             }
         }
@@ -76,26 +76,25 @@ class MainScreenController: NSViewController {
     }
 
     //MARK: - Setup constrains for all buttons
-    
     private func setupConstrainsForButtons() {
         self.boxView.addSubview(backButton)
         self.boxView.addSubview(homeButton)
         self.boxView.addSubview(forwardButton)
 
-        self.backButton.widthAnchor.constraint(equalToConstant: Constants.backButtonWidth).isActive = true
-        self.backButton.topAnchor.constraint(equalTo: self.boxView.topAnchor, constant: Constants.backForwardInsets.top).isActive = true
-        self.backButton.leadingAnchor.constraint(equalTo: self.boxView.leadingAnchor, constant: Constants.backForwardInsets.left).isActive = true
-        self.backButton.bottomAnchor.constraint(equalTo: self.boxView.bottomAnchor, constant: Constants.backForwardInsets.bottom).isActive = true
+        self.backButton.widthAnchor.constraint(equalToConstant: ConstraintConstants.backButtonWidth).isActive = true
+        self.backButton.topAnchor.constraint(equalTo: self.boxView.topAnchor, constant: ButtonConstants.backForwardInsets.top).isActive = true
+        self.backButton.leadingAnchor.constraint(equalTo: self.boxView.leadingAnchor, constant: ButtonConstants.backForwardInsets.left).isActive = true
+        self.backButton.bottomAnchor.constraint(equalTo: self.boxView.bottomAnchor, constant: ButtonConstants.backForwardInsets.bottom).isActive = true
 
-        self.homeButton.widthAnchor.constraint(equalToConstant: Constants.homeButtonWidth).isActive = true
+        self.homeButton.widthAnchor.constraint(equalToConstant: ConstraintConstants.homeButtonWidth).isActive = true
         self.homeButton.centerXAnchor.constraint(equalTo: self.boxView.centerXAnchor).isActive = true
-        self.homeButton.topAnchor.constraint(equalTo: self.boxView.topAnchor, constant: Constants.backForwardInsets.top).isActive = true
-        self.homeButton.bottomAnchor.constraint(equalTo: self.boxView.bottomAnchor, constant: Constants.backForwardInsets.bottom).isActive = true
+        self.homeButton.topAnchor.constraint(equalTo: self.boxView.topAnchor, constant: ButtonConstants.backForwardInsets.top).isActive = true
+        self.homeButton.bottomAnchor.constraint(equalTo: self.boxView.bottomAnchor, constant: ButtonConstants.backForwardInsets.bottom).isActive = true
 
-        self.forwardButton.widthAnchor.constraint(equalToConstant: Constants.forwardButtonWidth).isActive = true
-        self.forwardButton.topAnchor.constraint(equalTo: self.boxView.topAnchor, constant: Constants.backForwardInsets.top).isActive = true
-        self.forwardButton.trailingAnchor.constraint(equalTo: self.boxView.trailingAnchor, constant: Constants.backForwardInsets.right).isActive = true
-        self.forwardButton.bottomAnchor.constraint(equalTo: self.boxView.bottomAnchor, constant: Constants.backForwardInsets.bottom).isActive = true
+        self.forwardButton.widthAnchor.constraint(equalToConstant: ConstraintConstants.forwardButtonWidth).isActive = true
+        self.forwardButton.topAnchor.constraint(equalTo: self.boxView.topAnchor, constant: ButtonConstants.backForwardInsets.top).isActive = true
+        self.forwardButton.trailingAnchor.constraint(equalTo: self.boxView.trailingAnchor, constant: ButtonConstants.backForwardInsets.right).isActive = true
+        self.forwardButton.bottomAnchor.constraint(equalTo: self.boxView.bottomAnchor, constant: ButtonConstants.backForwardInsets.bottom).isActive = true
     }
 
     //MARK: - WebView Button Selectors
@@ -116,7 +115,7 @@ class MainScreenController: NSViewController {
     }
 
     @objc private func homeButtonClicked() {
-        guard let url = Constants.baseURL else { return }
+        guard let url = URLConstants.baseURL else { return }
         self.webView.load(URLRequest(url: url))
     }
 }
