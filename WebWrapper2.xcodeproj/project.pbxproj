@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		302D351827BE7375009E1954 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 302D351727BE7375009E1954 /* SnapKit */; };
-		302D351927BE73E6009E1954 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030D01227BE44160022125D /* Localized.swift */; };
 		302D351E27BE7903009E1954 /* MainScreenController + WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302D351D27BE7903009E1954 /* MainScreenController + WebView.swift */; };
+		302D352027BE7D08009E1954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302D351F27BE7D08009E1954 /* AppDelegate.swift */; };
+		302D352527BE7D30009E1954 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302D352127BE7D30009E1954 /* Localized.swift */; };
+		302D352627BE7D30009E1954 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 302D352327BE7D30009E1954 /* Localizable.strings */; };
 		3030CFAA27BD39510022125D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3030CFA927BD39510022125D /* Assets.xcassets */; };
 		3030CFAD27BD39510022125D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3030CFAB27BD39510022125D /* MainMenu.xib */; };
-		3030CFDC27BD3D840022125D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030CFDB27BD3D840022125D /* AppDelegate.swift */; };
 		3030CFE027BD3DD40022125D /* NSButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030CFDE27BD3DD40022125D /* NSButton+Extension.swift */; };
 		3030CFE127BD3DD40022125D /* NibLoadable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030CFDF27BD3DD40022125D /* NibLoadable+Extension.swift */; };
 		3030CFEC27BD56D30022125D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3030CFEB27BD56D30022125D /* Info.plist */; };
@@ -20,17 +21,18 @@
 		3030CFF127BD59630022125D /* MainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030CFEF27BD59630022125D /* MainScreenController.swift */; };
 		3030CFF227BD59630022125D /* MainScreenController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3030CFF027BD59630022125D /* MainScreenController.xib */; };
 		3030CFF927BD5D2D0022125D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030CFF827BD5D2D0022125D /* Constants.swift */; };
-		3030D01127BE43E60022125D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3030D00F27BE43E60022125D /* Localizable.strings */; };
 		3030D01527BE48D60022125D /* WebButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030D01427BE48D60022125D /* WebButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		302D351D27BE7903009E1954 /* MainScreenController + WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MainScreenController + WebView.swift"; path = "MainScreen/MainScreenController + WebView.swift"; sourceTree = "<group>"; };
+		302D351F27BE7D08009E1954 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		302D352127BE7D30009E1954 /* Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
+		302D352427BE7D30009E1954 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		3030CFA427BD39510022125D /* WebWrapper2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebWrapper2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3030CFA927BD39510022125D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3030CFAC27BD39510022125D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		3030CFAE27BD39510022125D /* WebWrapper2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WebWrapper2.entitlements; sourceTree = "<group>"; };
-		3030CFDB27BD3D840022125D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3030CFDE27BD3DD40022125D /* NSButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSButton+Extension.swift"; sourceTree = "<group>"; };
 		3030CFDF27BD3DD40022125D /* NibLoadable+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NibLoadable+Extension.swift"; sourceTree = "<group>"; };
 		3030CFEB27BD56D30022125D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -38,8 +40,6 @@
 		3030CFEF27BD59630022125D /* MainScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainScreenController.swift; path = MainScreen/MainScreenController.swift; sourceTree = "<group>"; };
 		3030CFF027BD59630022125D /* MainScreenController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainScreenController.xib; path = MainScreen/MainScreenController.xib; sourceTree = "<group>"; };
 		3030CFF827BD5D2D0022125D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		3030D01027BE43E60022125D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		3030D01227BE44160022125D /* Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
 		3030D01427BE48D60022125D /* WebButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,12 +55,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		302D351C27BE7847009E1954 /* en.lproj */ = {
+		302D352227BE7D30009E1954 /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				3030D00F27BE43E60022125D /* Localizable.strings */,
+				302D352327BE7D30009E1954 /* Localizable.strings */,
 			);
-			name = en.lproj;
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 		3030CF9B27BD39510022125D = {
@@ -107,8 +107,8 @@
 			children = (
 				3030CFEB27BD56D30022125D /* Info.plist */,
 				3030CFAB27BD39510022125D /* MainMenu.xib */,
-				3030CFDB27BD3D840022125D /* AppDelegate.swift */,
 				3030CFED27BD57010022125D /* AppPersistentVariables.swift */,
+				302D351F27BE7D08009E1954 /* AppDelegate.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -151,8 +151,8 @@
 		3030D00E27BE43E60022125D /* Localization */ = {
 			isa = PBXGroup;
 			children = (
-				302D351C27BE7847009E1954 /* en.lproj */,
-				3030D01227BE44160022125D /* Localized.swift */,
+				302D352227BE7D30009E1954 /* en.lproj */,
+				302D352127BE7D30009E1954 /* Localized.swift */,
 			);
 			path = Localization;
 			sourceTree = "<group>";
@@ -221,7 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3030D01127BE43E60022125D /* Localizable.strings in Resources */,
+				302D352627BE7D30009E1954 /* Localizable.strings in Resources */,
 				3030CFF227BD59630022125D /* MainScreenController.xib in Resources */,
 				3030CFAA27BD39510022125D /* Assets.xcassets in Resources */,
 				3030CFAD27BD39510022125D /* MainMenu.xib in Resources */,
@@ -236,11 +236,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				302D351927BE73E6009E1954 /* Localized.swift in Sources */,
 				3030D01527BE48D60022125D /* WebButton.swift in Sources */,
-				3030CFDC27BD3D840022125D /* AppDelegate.swift in Sources */,
 				302D351E27BE7903009E1954 /* MainScreenController + WebView.swift in Sources */,
+				302D352027BE7D08009E1954 /* AppDelegate.swift in Sources */,
 				3030CFEE27BD57010022125D /* AppPersistentVariables.swift in Sources */,
+				302D352527BE7D30009E1954 /* Localized.swift in Sources */,
 				3030CFF127BD59630022125D /* MainScreenController.swift in Sources */,
 				3030CFF927BD5D2D0022125D /* Constants.swift in Sources */,
 				3030CFE027BD3DD40022125D /* NSButton+Extension.swift in Sources */,
@@ -251,20 +251,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		302D352327BE7D30009E1954 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				302D352427BE7D30009E1954 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		3030CFAB27BD39510022125D /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3030CFAC27BD39510022125D /* Base */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		3030D00F27BE43E60022125D /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3030D01027BE43E60022125D /* en */,
-			);
-			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -1,0 +1,11 @@
+/* App title */
+"app.title" = "WebWrapper2";
+
+/* Back button title */
+"back.button" = "Back";
+
+/* Forward button title */
+"home.button" = "Homepage";
+
+/* Forward button title */
+"forward.button" = "Forward";
