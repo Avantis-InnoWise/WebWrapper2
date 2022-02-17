@@ -15,7 +15,7 @@ extension MainScreenController: WKNavigationDelegate {
         decisionHandler: @escaping (WKNavigationActionPolicy) -> Void
     ) {
         if let host = navigationAction.request.url?.host {
-            if host.contains("wellhello.com") {
+            if host.contains(Constants.permissionURL) {
                 decisionHandler(.allow)
                 return
             }
@@ -59,7 +59,7 @@ extension MainScreenController: WKUIDelegate {
     ) -> WKWebView? {
         if navigationAction.targetFrame == nil || navigationAction.targetFrame?.isMainFrame == false {
             if let urlToLoad = navigationAction.request.url {
-                if urlToLoad.absoluteString.contains("wellhello.com") {
+                if urlToLoad.absoluteString.contains(Constants.permissionURL) {
                     self.webView.load(URLRequest(url: urlToLoad))
                 }
             }

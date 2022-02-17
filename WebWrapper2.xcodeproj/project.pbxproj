@@ -17,7 +17,6 @@
 		3030CFE027BD3DD40022125D /* NSButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030CFDE27BD3DD40022125D /* NSButton+Extension.swift */; };
 		3030CFE127BD3DD40022125D /* NibLoadable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030CFDF27BD3DD40022125D /* NibLoadable+Extension.swift */; };
 		3030CFEC27BD56D30022125D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3030CFEB27BD56D30022125D /* Info.plist */; };
-		3030CFEE27BD57010022125D /* AppPersistentVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030CFED27BD57010022125D /* AppPersistentVariables.swift */; };
 		3030CFF127BD59630022125D /* MainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030CFEF27BD59630022125D /* MainScreenController.swift */; };
 		3030CFF227BD59630022125D /* MainScreenController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3030CFF027BD59630022125D /* MainScreenController.xib */; };
 		3030CFF927BD5D2D0022125D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030CFF827BD5D2D0022125D /* Constants.swift */; };
@@ -36,7 +35,6 @@
 		3030CFDE27BD3DD40022125D /* NSButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSButton+Extension.swift"; sourceTree = "<group>"; };
 		3030CFDF27BD3DD40022125D /* NibLoadable+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NibLoadable+Extension.swift"; sourceTree = "<group>"; };
 		3030CFEB27BD56D30022125D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3030CFED27BD57010022125D /* AppPersistentVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPersistentVariables.swift; sourceTree = "<group>"; };
 		3030CFEF27BD59630022125D /* MainScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainScreenController.swift; path = MainScreen/MainScreenController.swift; sourceTree = "<group>"; };
 		3030CFF027BD59630022125D /* MainScreenController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainScreenController.xib; path = MainScreen/MainScreenController.xib; sourceTree = "<group>"; };
 		3030CFF827BD5D2D0022125D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -107,7 +105,6 @@
 			children = (
 				3030CFEB27BD56D30022125D /* Info.plist */,
 				3030CFAB27BD39510022125D /* MainMenu.xib */,
-				3030CFED27BD57010022125D /* AppPersistentVariables.swift */,
 				302D351F27BE7D08009E1954 /* AppDelegate.swift */,
 			);
 			path = Application;
@@ -239,7 +236,6 @@
 				3030D01527BE48D60022125D /* WebButton.swift in Sources */,
 				302D351E27BE7903009E1954 /* MainScreenController + WebView.swift in Sources */,
 				302D352027BE7D08009E1954 /* AppDelegate.swift in Sources */,
-				3030CFEE27BD57010022125D /* AppPersistentVariables.swift in Sources */,
 				302D352527BE7D30009E1954 /* Localized.swift in Sources */,
 				3030CFF127BD59630022125D /* MainScreenController.swift in Sources */,
 				3030CFF927BD5D2D0022125D /* Constants.swift in Sources */,

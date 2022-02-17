@@ -8,8 +8,14 @@
 import Cocoa
 
 enum Constants {
+    //MARK: - URL
+    static var baseURL: URL? {
+        return URL(string: "https://wellhello.com/site/user/home?chatOpened=1")
+    }
+    static let permissionURL = "wellhello.com"
+    
     //MARK: - Button Setup
-    static let backForwardInsets: NSEdgeInsets = NSEdgeInsets(top: 20, left: 30, bottom: 20, right: 30)
+    static let backForwardInsets: NSEdgeInsets = NSEdgeInsets(top: 20, left: 30, bottom: -20, right: -30)
     static let cornerRadius: CGFloat = 10
     static let pinkColor: NSColor = .init(red: 255/255, green: 51/255, blue: 153/255, alpha: 1)
     
