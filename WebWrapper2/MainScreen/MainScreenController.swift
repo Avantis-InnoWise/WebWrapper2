@@ -7,7 +7,6 @@
 
 import Cocoa
 import WebKit
-import SnapKit
 
 class MainScreenController: NSViewController {
     private let backButton : NSButton = {
