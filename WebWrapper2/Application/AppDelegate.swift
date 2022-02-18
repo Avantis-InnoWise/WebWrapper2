@@ -17,7 +17,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                                backing: .buffered,
                                defer: false)
         self.window?.title = .localized.appTitle
-        self.window?.contentViewController = MainScreenController.loadFromNib()
+        self.window?.contentViewController = MainScreenController()
         self.window?.makeKeyAndOrderFront(nil)
     }
 
