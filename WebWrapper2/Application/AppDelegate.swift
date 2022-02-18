@@ -16,7 +16,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                                styleMask: [.miniaturizable, .closable, .resizable, .titled],
                                backing: .buffered,
                                defer: false)
-        self.window?.title = .localized.appTitle
+        self.window?.title = Bundle.main.displayName ?? "WebWrapper2"
         self.window?.contentViewController = MainScreenController()
         self.window?.makeKeyAndOrderFront(nil)
     }

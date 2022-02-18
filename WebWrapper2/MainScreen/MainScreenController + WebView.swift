@@ -2,7 +2,7 @@
 //  MainScreenController + WebView.swift
 //  WebWrapper2
 //
-//  Created by Егор Евсеенко on 16.02.22.
+//  Created by Yahor Yauseyenka on 16.02.22.
 //
 
 import Cocoa
