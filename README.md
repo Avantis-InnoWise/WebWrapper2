@@ -1,25 +1,25 @@
 # WebWrapper2
 
-                                Instructions for changing URL, icon and name in project WebWrapper2:
+    Instructions for changing URL, icon and name in project WebWrapper2:
 To get started, open a project “WebWrapper2.xcodeproj”:
 
-<img src= "https://user-images.githubusercontent.com/98945286/154938796-ee587e32-d81c-4f4c-8d08-aded3a732d9f.png" width="250" height="100" />
+<img src= "https://user-images.githubusercontent.com/98945286/154938796-ee587e32-d81c-4f4c-8d08-aded3a732d9f.png" width="200" height="170" />
 
 
-                                                      1.To change the URL:
+    1.To change the URL:
 Open file with name “Constants”:
 
-<img src= "https://user-images.githubusercontent.com/98945286/154938873-4e3256ce-703b-4eee-9354-23a8e572638c.png" width="150" height="200" />
+<img src= "https://user-images.githubusercontent.com/98945286/154938873-4e3256ce-703b-4eee-9354-23a8e572638c.png" width="250" height="300" />
 Replace URL string with new one:
 
-<img src= "https://user-images.githubusercontent.com/98945286/154939538-cc6036ad-b5e4-4a07-955f-8a1aea7e6d68.png" width="450" height="100" />
+<img src= "https://user-images.githubusercontent.com/98945286/154939538-cc6036ad-b5e4-4a07-955f-8a1aea7e6d68.png" width="500" height="150" />
 
-                                                  2.To change project name:
+    2.To change project name:
 Open file with name “InfoPlist”: 
 
-<img src= "https://user-images.githubusercontent.com/98945286/154939810-3242953f-a14e-494f-a845-942285e57c94.png" width="150" height="150" />
+<img src= "https://user-images.githubusercontent.com/98945286/154939810-3242953f-a14e-494f-a845-942285e57c94.png" width="250" height="300" />
 Replace two string with the name of the project with new ones:
 
-<img src= "https://user-images.githubusercontent.com/98945286/154939962-f2d66b62-39de-424e-8826-0e075dc18cb5.png" width="250" height="100" /> 
+<img src= "https://user-images.githubusercontent.com/98945286/154939962-f2d66b62-39de-424e-8826-0e075dc18cb5.png" width="500" height="150" /> 
 
 
