@@ -23,7 +23,7 @@ Open file with name “InfoPlist”:
 
 Replace two string with the name of the project with new ones:
 
-<img src= "https://user-images.githubusercontent.com/98945286/154939962-f2d66b62-39de-424e-8826-0e075dc18cb5.png" width="500" height="150" /> 
+<img src= "https://user-images.githubusercontent.com/98945286/154939962-f2d66b62-39de-424e-8826-0e075dc18cb5.png" width="500" height="110" /> 
 
 
     3.To change project icon:
