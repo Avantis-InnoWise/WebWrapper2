@@ -3,7 +3,7 @@
     Instructions for changing URL, icon and name in project WebWrapper2:
 To get started, open a project “WebWrapper2.xcodeproj”:
 
-<img src= "https://user-images.githubusercontent.com/98945286/154938796-ee587e32-d81c-4f4c-8d08-aded3a732d9f.png" width="400" height="170" />
+<img src= "https://user-images.githubusercontent.com/98945286/154938796-ee587e32-d81c-4f4c-8d08-aded3a732d9f.png" width="400" height="130" />
 
 
     1.To change the URL:
@@ -12,7 +12,7 @@ Open file with name “Constants”:
 <img src= "https://user-images.githubusercontent.com/98945286/154938873-4e3256ce-703b-4eee-9354-23a8e572638c.png" width="250" height="300" />
 Replace URL string with new one:
 
-<img src= "https://user-images.githubusercontent.com/98945286/154939538-cc6036ad-b5e4-4a07-955f-8a1aea7e6d68.png" width="700" height="150" />
+<img src= "https://user-images.githubusercontent.com/98945286/154939538-cc6036ad-b5e4-4a07-955f-8a1aea7e6d68.png" width="700" height="130" />
 
     2.To change project name:
 Open file with name “InfoPlist”: 
