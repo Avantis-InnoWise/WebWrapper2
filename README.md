@@ -10,3 +10,16 @@ To get started, open a project “WebWrapper2.xcodeproj”:
 Open file with name “Constants”:
 
 <img src= "https://user-images.githubusercontent.com/98945286/154938873-4e3256ce-703b-4eee-9354-23a8e572638c.png" width="150" height="200" />
+Replace URL string with new one:
+
+<img src= "https://user-images.githubusercontent.com/98945286/154939538-cc6036ad-b5e4-4a07-955f-8a1aea7e6d68.png" width="450" height="100" />
+
+                                                  2.To change project name:
+Open file with name “InfoPlist”: 
+
+<img src= "https://user-images.githubusercontent.com/98945286/154939810-3242953f-a14e-494f-a845-942285e57c94.png" width="150" height="150" />
+Replace two string with the name of the project with new ones:
+
+<img src= "https://user-images.githubusercontent.com/98945286/154939962-f2d66b62-39de-424e-8826-0e075dc18cb5.png" width="250" height="100" /> 
+
+
