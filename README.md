@@ -37,7 +37,7 @@ Next step, open “AppIcon”:
 
 In the window that appears, you need to insert icons with the appropriate resolution:
 
-<img src= "https://user-images.githubusercontent.com/98945286/154941624-26c70aa1-9359-4ca0-87d4-f0686c52ca06.png" width="500" height="600" />
+<img src= "https://user-images.githubusercontent.com/98945286/154941624-26c70aa1-9359-4ca0-87d4-f0686c52ca06.png" width="500" height="500" />
 
 
 
