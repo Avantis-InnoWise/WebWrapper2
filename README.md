@@ -33,11 +33,11 @@ Open file with name “Assets”:
 
 Next step, open “AppIcon”:
 
-<img src= "https://user-images.githubusercontent.com/98945286/154941166-b90fe4a6-b5ce-4bd4-a3a1-6b033943098f.png" width="350" height="110" />
+<img src= "https://user-images.githubusercontent.com/98945286/154941166-b90fe4a6-b5ce-4bd4-a3a1-6b033943098f.png" width="350" height="70" />
 
 In the window that appears, you need to insert icons with the appropriate resolution:
 
-<img src= "https://user-images.githubusercontent.com/98945286/154941624-26c70aa1-9359-4ca0-87d4-f0686c52ca06.png" width="600" height="600" />
+<img src= "https://user-images.githubusercontent.com/98945286/154941624-26c70aa1-9359-4ca0-87d4-f0686c52ca06.png" width="500" height="600" />
 
 
 
