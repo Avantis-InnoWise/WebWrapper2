@@ -3,40 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3030CFA827BD39510022125D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030CFA727BD39510022125D /* AppDelegate.swift */; };
+		302D351E27BE7903009E1954 /* MainScreenController + WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302D351D27BE7903009E1954 /* MainScreenController + WebView.swift */; };
+		302D352027BE7D08009E1954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302D351F27BE7D08009E1954 /* AppDelegate.swift */; };
+		302D352527BE7D30009E1954 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302D352127BE7D30009E1954 /* Localized.swift */; };
+		302D352627BE7D30009E1954 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 302D352327BE7D30009E1954 /* Localizable.strings */; };
+		302D352827BFB3AD009E1954 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 302D352727BFB3AD009E1954 /* InfoPlist.strings */; };
+		302D352A27BFB3F2009E1954 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 302D352927BFB3F2009E1954 /* Info.plist */; };
+		302D352E27BFC439009E1954 /* Bundle + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302D352D27BFC439009E1954 /* Bundle + Extension.swift */; };
 		3030CFAA27BD39510022125D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3030CFA927BD39510022125D /* Assets.xcassets */; };
 		3030CFAD27BD39510022125D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3030CFAB27BD39510022125D /* MainMenu.xib */; };
+		3030CFE027BD3DD40022125D /* NSButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030CFDE27BD3DD40022125D /* NSButton+Extension.swift */; };
+		3030CFF127BD59630022125D /* MainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030CFEF27BD59630022125D /* MainScreenController.swift */; };
+		3030CFF227BD59630022125D /* MainScreenController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3030CFF027BD59630022125D /* MainScreenController.xib */; };
+		3030CFF927BD5D2D0022125D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030CFF827BD5D2D0022125D /* Constants.swift */; };
+		3030D01527BE48D60022125D /* WebButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3030D01427BE48D60022125D /* WebButton.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		3030CFB427BD39520022125D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3030CF9C27BD39510022125D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3030CFA327BD39510022125D;
-			remoteInfo = WebWrapper2;
-		};
-		3030CFBE27BD39520022125D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3030CF9C27BD39510022125D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3030CFA327BD39510022125D;
-			remoteInfo = WebWrapper2;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		302D351D27BE7903009E1954 /* MainScreenController + WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MainScreenController + WebView.swift"; path = "MainScreen/MainScreenController + WebView.swift"; sourceTree = "<group>"; };
+		302D351F27BE7D08009E1954 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		302D352127BE7D30009E1954 /* Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
+		302D352427BE7D30009E1954 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		302D352727BFB3AD009E1954 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		302D352927BFB3F2009E1954 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302D352D27BFC439009E1954 /* Bundle + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle + Extension.swift"; sourceTree = "<group>"; };
 		3030CFA427BD39510022125D /* WebWrapper2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebWrapper2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3030CFA727BD39510022125D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3030CFA927BD39510022125D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3030CFAC27BD39510022125D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		3030CFAE27BD39510022125D /* WebWrapper2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WebWrapper2.entitlements; sourceTree = "<group>"; };
-		3030CFB327BD39520022125D /* WebWrapper2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebWrapper2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3030CFBD27BD39520022125D /* WebWrapper2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebWrapper2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3030CFDE27BD3DD40022125D /* NSButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSButton+Extension.swift"; sourceTree = "<group>"; };
+		3030CFEF27BD59630022125D /* MainScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainScreenController.swift; path = MainScreen/MainScreenController.swift; sourceTree = "<group>"; };
+		3030CFF027BD59630022125D /* MainScreenController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainScreenController.xib; path = MainScreen/MainScreenController.xib; sourceTree = "<group>"; };
+		3030CFF827BD5D2D0022125D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3030D01427BE48D60022125D /* WebButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,23 +50,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3030CFB027BD39520022125D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3030CFBA27BD39520022125D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		302D352227BE7D30009E1954 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				302D352327BE7D30009E1954 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
 		3030CF9B27BD39510022125D = {
 			isa = PBXGroup;
 			children = (
@@ -76,8 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				3030CFA427BD39510022125D /* WebWrapper2.app */,
-				3030CFB327BD39520022125D /* WebWrapper2Tests.xctest */,
-				3030CFBD27BD39520022125D /* WebWrapper2UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,12 +80,79 @@
 		3030CFA627BD39510022125D /* WebWrapper2 */ = {
 			isa = PBXGroup;
 			children = (
-				3030CFA727BD39510022125D /* AppDelegate.swift */,
-				3030CFA927BD39510022125D /* Assets.xcassets */,
-				3030CFAB27BD39510022125D /* MainMenu.xib */,
+				3030CFF727BD5D220022125D /* Common */,
+				3030CFDA27BD3D840022125D /* Application */,
+				3030CFDD27BD3DD40022125D /* Extension */,
+				3030CFD327BD3CCC0022125D /* MainScreen */,
+				3030CFE227BD3DF70022125D /* Assets */,
 				3030CFAE27BD39510022125D /* WebWrapper2.entitlements */,
 			);
 			path = WebWrapper2;
+			sourceTree = "<group>";
+		};
+		3030CFD327BD3CCC0022125D /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3030CFEF27BD59630022125D /* MainScreenController.swift */,
+				302D351D27BE7903009E1954 /* MainScreenController + WebView.swift */,
+				3030CFF027BD59630022125D /* MainScreenController.xib */,
+			);
+			name = MainScreen;
+			sourceTree = "<group>";
+		};
+		3030CFDA27BD3D840022125D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				302D352927BFB3F2009E1954 /* Info.plist */,
+				302D352727BFB3AD009E1954 /* InfoPlist.strings */,
+				3030CFAB27BD39510022125D /* MainMenu.xib */,
+				302D351F27BE7D08009E1954 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3030CFDD27BD3DD40022125D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3030CFDE27BD3DD40022125D /* NSButton+Extension.swift */,
+				302D352D27BFC439009E1954 /* Bundle + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3030CFE227BD3DF70022125D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3030CFA927BD39510022125D /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		3030CFF727BD5D220022125D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3030D00E27BE43E60022125D /* Localization */,
+				3030CFFA27BD5D380022125D /* Enumeration */,
+				3030CFF827BD5D2D0022125D /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3030CFFA27BD5D380022125D /* Enumeration */ = {
+			isa = PBXGroup;
+			children = (
+				3030D01427BE48D60022125D /* WebButton.swift */,
+			);
+			name = Enumeration;
+			sourceTree = "<group>";
+		};
+		3030D00E27BE43E60022125D /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				302D352227BE7D30009E1954 /* en.lproj */,
+				302D352127BE7D30009E1954 /* Localized.swift */,
+			);
+			path = Localization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,45 +171,11 @@
 			dependencies = (
 			);
 			name = WebWrapper2;
+			packageProductDependencies = (
+			);
 			productName = WebWrapper2;
 			productReference = 3030CFA427BD39510022125D /* WebWrapper2.app */;
 			productType = "com.apple.product-type.application";
-		};
-		3030CFB227BD39520022125D /* WebWrapper2Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3030CFCA27BD39520022125D /* Build configuration list for PBXNativeTarget "WebWrapper2Tests" */;
-			buildPhases = (
-				3030CFAF27BD39520022125D /* Sources */,
-				3030CFB027BD39520022125D /* Frameworks */,
-				3030CFB127BD39520022125D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3030CFB527BD39520022125D /* PBXTargetDependency */,
-			);
-			name = WebWrapper2Tests;
-			productName = WebWrapper2Tests;
-			productReference = 3030CFB327BD39520022125D /* WebWrapper2Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3030CFBC27BD39520022125D /* WebWrapper2UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3030CFCD27BD39520022125D /* Build configuration list for PBXNativeTarget "WebWrapper2UITests" */;
-			buildPhases = (
-				3030CFB927BD39520022125D /* Sources */,
-				3030CFBA27BD39520022125D /* Frameworks */,
-				3030CFBB27BD39520022125D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3030CFBF27BD39520022125D /* PBXTargetDependency */,
-			);
-			name = WebWrapper2UITests;
-			productName = WebWrapper2UITests;
-			productReference = 3030CFBD27BD39520022125D /* WebWrapper2UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -162,18 +190,10 @@
 					3030CFA327BD39510022125D = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					3030CFB227BD39520022125D = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 3030CFA327BD39510022125D;
-					};
-					3030CFBC27BD39520022125D = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 3030CFA327BD39510022125D;
-					};
 				};
 			};
 			buildConfigurationList = 3030CF9F27BD39510022125D /* Build configuration list for PBXProject "WebWrapper2" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -181,13 +201,13 @@
 				Base,
 			);
 			mainGroup = 3030CF9B27BD39510022125D;
+			packageReferences = (
+			);
 			productRefGroup = 3030CFA527BD39510022125D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3030CFA327BD39510022125D /* WebWrapper2 */,
-				3030CFB227BD39520022125D /* WebWrapper2Tests */,
-				3030CFBC27BD39520022125D /* WebWrapper2UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -197,22 +217,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				302D352627BE7D30009E1954 /* Localizable.strings in Resources */,
+				3030CFF227BD59630022125D /* MainScreenController.xib in Resources */,
+				302D352A27BFB3F2009E1954 /* Info.plist in Resources */,
 				3030CFAA27BD39510022125D /* Assets.xcassets in Resources */,
 				3030CFAD27BD39510022125D /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3030CFB127BD39520022125D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3030CFBB27BD39520022125D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				302D352827BFB3AD009E1954 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,40 +233,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3030CFA827BD39510022125D /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3030CFAF27BD39520022125D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3030CFB927BD39520022125D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				3030D01527BE48D60022125D /* WebButton.swift in Sources */,
+				302D351E27BE7903009E1954 /* MainScreenController + WebView.swift in Sources */,
+				302D352027BE7D08009E1954 /* AppDelegate.swift in Sources */,
+				302D352527BE7D30009E1954 /* Localized.swift in Sources */,
+				3030CFF127BD59630022125D /* MainScreenController.swift in Sources */,
+				302D352E27BFC439009E1954 /* Bundle + Extension.swift in Sources */,
+				3030CFF927BD5D2D0022125D /* Constants.swift in Sources */,
+				3030CFE027BD3DD40022125D /* NSButton+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		3030CFB527BD39520022125D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3030CFA327BD39510022125D /* WebWrapper2 */;
-			targetProxy = 3030CFB427BD39520022125D /* PBXContainerItemProxy */;
-		};
-		3030CFBF27BD39520022125D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3030CFA327BD39510022125D /* WebWrapper2 */;
-			targetProxy = 3030CFBE27BD39520022125D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
+		302D352327BE7D30009E1954 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				302D352427BE7D30009E1954 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		3030CFAB27BD39510022125D /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -392,7 +390,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NYX6FQH9DL;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -402,6 +400,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = yy.WebWrapper2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -419,7 +418,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NYX6FQH9DL;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -429,83 +428,12 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = yy.WebWrapper2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		3030CFCB27BD39520022125D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NYX6FQH9DL;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = yy.WebWrapper2Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebWrapper2.app/Contents/MacOS/WebWrapper2";
-			};
-			name = Debug;
-		};
-		3030CFCC27BD39520022125D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NYX6FQH9DL;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = yy.WebWrapper2Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebWrapper2.app/Contents/MacOS/WebWrapper2";
-			};
-			name = Release;
-		};
-		3030CFCE27BD39520022125D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NYX6FQH9DL;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = yy.WebWrapper2UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = WebWrapper2;
-			};
-			name = Debug;
-		};
-		3030CFCF27BD39520022125D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NYX6FQH9DL;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = yy.WebWrapper2UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = WebWrapper2;
 			};
 			name = Release;
 		};
@@ -526,24 +454,6 @@
 			buildConfigurations = (
 				3030CFC827BD39520022125D /* Debug */,
 				3030CFC927BD39520022125D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3030CFCA27BD39520022125D /* Build configuration list for PBXNativeTarget "WebWrapper2Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3030CFCB27BD39520022125D /* Debug */,
-				3030CFCC27BD39520022125D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3030CFCD27BD39520022125D /* Build configuration list for PBXNativeTarget "WebWrapper2UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3030CFCE27BD39520022125D /* Debug */,
-				3030CFCF27BD39520022125D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
