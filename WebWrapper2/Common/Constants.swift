@@ -12,7 +12,6 @@ struct URLConstants {
     static var baseURL: URL? {
         return URL(string: "https://wellhello.com/site/user/home?chatOpened=1")
     }
-    static let permissionURL = "wellhello.com"
 }
 
 // MARK: - Button Setup

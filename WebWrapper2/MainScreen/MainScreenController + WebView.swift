@@ -14,14 +14,7 @@ extension MainScreenController: WKNavigationDelegate {
         decidePolicyFor navigationAction: WKNavigationAction,
         decisionHandler: @escaping (WKNavigationActionPolicy) -> Void
     ) {
-        if let hostURL = navigationAction.request.url?.host {
-            if hostURL.contains(URLConstants.permissionURL) {
-                decisionHandler(.allow)
-                return
-            }
-        }
-
-        decisionHandler(.cancel)
+        decisionHandler(.allow)
     }
 
     func webView(
@@ -58,11 +51,9 @@ extension MainScreenController: WKUIDelegate {
         windowFeatures: WKWindowFeatures
     ) -> WKWebView? {
         if navigationAction.targetFrame == nil ||
-           navigationAction.targetFrame?.isMainFrame == false {
-            if let loadURL = navigationAction.request.url {
-                if loadURL.absoluteString.contains(URLConstants.permissionURL) {
-                    self.webView.load(URLRequest(url: loadURL))
-                }
+            navigationAction.targetFrame?.isMainFrame == false {
+            if let url = navigationAction.request.url {
+                self.webView.load(URLRequest(url: url))
             }
         }
         return nil
