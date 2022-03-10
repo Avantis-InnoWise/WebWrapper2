@@ -16,6 +16,7 @@ class MainScreenController: NSViewController {
         backButton.title = .localized.backButton
         backButton.translatesAutoresizingMaskIntoConstraints = false
         backButton.action = #selector(backButtonClicked)
+        backButton.layer?.backgroundColor = NSColor.brown.cgColor
         return backButton
     }()
     
@@ -26,6 +27,7 @@ class MainScreenController: NSViewController {
         forwardButton.title = .localized.forwardButton
         forwardButton.translatesAutoresizingMaskIntoConstraints = false
         forwardButton.action = #selector(forwardButtonClicked)
+        forwardButton.layer?.backgroundColor = NSColor.brown.cgColor
         return forwardButton
     }()
     
@@ -36,6 +38,7 @@ class MainScreenController: NSViewController {
         homeButton.title = .localized.homeButton
         homeButton.translatesAutoresizingMaskIntoConstraints = false
         homeButton.action = #selector(homeButtonClicked)
+        homeButton.layer?.backgroundColor = NSColor.brown.cgColor
         return homeButton
     }()
     
